@@ -1,0 +1,233 @@
+/************************************************/
+/* Section-Header */
+/************************************************/
+.main-nav {
+  display: flex;
+  gap: 3rem;
+  justify-content: end;
+  margin-right: 6rem;
+  margin-top: 2.7rem;
+}
+
+.main-nav p {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.section-header {
+  margin-bottom: 18.3rem;
+}
+
+/************************************************/
+/* Section-Testemonial */
+/************************************************/
+.section-testemonial {
+  margin-bottom: 7rem;
+  max-width: 85.6rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.testemonial {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 11rem;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 4.4rem;
+  line-height: 6rem;
+  margin-bottom: 4rem;
+}
+
+.testemonial-text {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.35rem;
+  margin-bottom: 4.7rem;
+}
+
+.testemonial-button {
+  background-color: #ff6464;
+  padding: 1rem;
+  border-radius: 2px;
+  border: none;
+}
+
+.resume-button {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.testemonial-image {
+  justify-self: end;
+}
+
+.picture-of-john {
+  width: 24.3rem;
+  height: 24.3rem;
+}
+
+/************************************************/
+/* Section-Recent-Posts */
+/************************************************/
+.section-recent-posts {
+  background-color: rgba(163, 192, 212, 0.467);
+  height: 39.6rem;
+  display: flex;
+  gap: 2rem;
+}
+.recent-posts {
+  display: flex;
+  gap: 2rem;
+  position: relative;
+  margin-top: 6.9rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3.2rem;
+}
+.design-pattern {
+  background-color: #fff;
+  width: 41.8rem;
+  height: 29.5rem;
+  padding-left: 2.3rem;
+  padding-top: 2.4rem;
+  padding-right: 2.1rem;
+}
+
+.design-pattern-header {
+  font-size: 2.6rem;
+  line-height: 3.8rem;
+  font-style: bold;
+  font-weight: 700;
+  margin-bottom: 1.7rem;
+}
+
+.design-pattern-data {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 1.1rem;
+}
+
+.design-pattern-data span {
+  border-right: 1px solid rgba(0, 0, 0, 1);
+  margin-left: 2rem;
+  margin-right: 2rem;
+  display: inline;
+}
+
+.design-patter-text {
+  font-size: 1.6rem;
+  line-height: 2.35rem;
+}
+
+.recent-posts-absolute {
+  position: absolute;
+  top: -4.3rem;
+  left: -0.2rem;
+  font-size: 2.2rem;
+  line-height: 186%;
+  color: #21243d;
+}
+
+.view-all-absolute {
+  font-size: 1.6rem;
+  color: #00a8cc;
+  position: absolute;
+  line-height: 100%;
+  top: -2.5rem;
+  right: -0rem;
+}
+
+/************************************************/
+/* Section-featureed-works */
+/************************************************/
+.section-featured-works {
+  margin-bottom: 8.3rem;
+}
+.featured-works {
+  display: grid;
+  grid-template-rows: 1fr;
+  gap: 4.6rem;
+  padding-top: 9.7rem;
+  position: relative;
+}
+
+.featured-works-flex {
+  display: flex;
+  gap: 1rem;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 1.5rem;
+}
+
+.desigining-dashboards-box,
+.Vibrant-Portraits-box,
+.Malayalam-type-box {
+  list-style: none;
+}
+
+.Vibrant-Portraits-box-header {
+  font-size: 3rem;
+  color: #21243d;
+  font-weight: 700;
+  line-height: 100%;
+  margin-bottom: 1.6rem;
+}
+
+.Vibrant-Portraits-box-data span {
+  padding: 0.3rem 1rem;
+  background-color: #21243d;
+  border-radius: 100px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 1.8rem;
+}
+
+.Vibrant-Portraits-box-data {
+  display: flex;
+  gap: 2.6rem;
+  align-items: center;
+  margin-bottom: 1.7rem;
+}
+
+.Vibrant-Portraits-box-data p {
+  color: #8695a4;
+  font-size: 2rem;
+}
+
+.Vibrant-Portraits-box-text {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.featured-works-absolute {
+  font-size: 2.2rem;
+  color: #21243d;
+  position: absolute;
+  top: 4.5rem;
+  left: 0;
+}
+
+/************************************************/
+/* Section-featureed-works */
+/************************************************/
+.section-footer {
+  margin-bottom: 5.4rem;
+}
+
+.footer-logos {
+  display: flex;
+  gap: 3.5rem;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin-bottom: 2.6rem;
+}
+
+.footer-copy {
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+}
